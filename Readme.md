@@ -48,12 +48,13 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Robot Framework deve estar instalado e configurado no PATH do sistema
 
-Para instalar a biblioteca <Metrics>:
-```
-<pip install robotframework-metrics>
-```
+Para instalar a biblioteca **Metrics**:
 
+\```
 
+pip install robotframework-metrics
+
+\```
 
 \## 🚀 Instalando <nome_do_projeto>
 
