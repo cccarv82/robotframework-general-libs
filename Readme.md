@@ -1,59 +1,61 @@
-\# Framework básico para demonstrar o uso de algumas bibliotecas para Robot Framework
+# Framework básico para demonstrar o uso de algumas bibliotecas para Robot Framework
 
 ![image](https://img.shields.io/badge/Python-00c0b5?style=for-the-badge&logo=python&logoColor=ffe46a) ![image](https://img.shields.io/badge/Robot%20Framework-00c0b5?style=for-the-badge&logo=robot%20framework&logoColor=grey)
 
 
 
-\> Projeto base simples apenas para demonstrar a utilização das bibliotecas listadas abaixo. Essas bibliotecas podem ser utilizadas em qualquer tipo de projeto de automação que utilize Robot Framework, seja Web, Mobile, API e etc...
+> Projeto base simples apenas para demonstrar a utilização das bibliotecas listadas abaixo. Essas bibliotecas podem ser utilizadas em qualquer tipo de projeto de automação que utilize Robot Framework, seja Web, Mobile, API e etc...
 
 
 
-\### Lista de Bibliotecas utilizadas
+### Lista de Bibliotecas utilizadas
 
-\- [x] Metrics
+- [x] Metrics
 
 > Cria um report HTML a partir do arquivo output.xml gerado pelo RF contendo métricas e informações bem estruturadas. Serve como um complemento para o report gerado pelo próprio RF.
 
-\- [x] Pabot
+- [x] Pabot
 
 > Permite a execução de testes paralelos a nível de Suite ou de Test Case sem complicações!
 
-\- [x] Robocop
+- [x] Robocop
 
 > Biblioteca para análise estática do código. Gera um relatório contendo os problemas encontrados para correção e garantia de boas práticas.
 
-\- [x] Tidy
+- [x] Tidy
 
 > Formatador de código para Robot Framework!
 
-\- [ ] Crypto
+- [ ] Crypto
 
 > Biblioteca para utilização segura por meio de encriptação de senhas e tokens.
 
-\- [ ] Faker
+- [ ] Faker
 
 > Faker é um pacote Python que gera dados falsos para utilização como massa de dados. A biblioteca Faker para RF permite a utilização de tal pacote de forma facilitada.
 
 
 
-\## 💻 Instalação das Bibliotecas
+## 💻 Instalação das Bibliotecas
 
 
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-\* Python deve estar instalado e configurado no PATH do sistema
+* Python deve estar instalado e configurado no PATH do sistema
 
-\* PIP deve estar instalado e configurado no PATH do sistema
+* PIP deve estar instalado e configurado no PATH do sistema
 
-\* Robot Framework deve estar instalado e configurado no PATH do sistema
+* Robot Framework deve estar instalado e configurado no PATH do sistema
 
 Para instalar a biblioteca <Metrics>:
-\```
+```
+```
 
 <pip install robotframework-metrics>
 
-\```
+```
+```
 
 
 
