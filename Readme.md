@@ -51,12 +51,10 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar a biblioteca **Metrics**:
 
 ```
-```
-
 pip install robotframework-metrics
+```
 
-```
-```
+
 
 \## 🚀 Instalando <nome_do_projeto>
 
