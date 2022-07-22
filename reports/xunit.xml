@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Conta" tests="3" errors="0" failures="0" skipped="0" time="0.431" timestamp="2022-07-22T18:33:32.099000">
+<testcase classname="Conta" name="Quando abro uma nova conta deve retornar saldo ZERADO" time="0.002">
+</testcase>
+<testcase classname="Conta" name="Quando faço um deposito deve refletir o valor no meu saldo" time="0.001">
+</testcase>
+<testcase classname="Conta" name="Quando faço um saque deve deduzir o valor do meu saldo" time="0.002">
+</testcase>
+<properties>
+<property name="Documentation" value="Suite para testar a classe ContaLibrary.py"/>
+</properties>
+</testsuite>

@@ -1,0 +1,6 @@
+robotframework-crypto==0.3.0
+Faker==13.15.0
+robotframework-metrics==3.3.3
+robotframework-pabot==2.5.4
+robotframework-robocop==2.2.0
+robotframework-tidy==3.0
