@@ -287,7 +287,9 @@ chmod + x run.sh
 
 ###### Feito por: Carlos C. Carvalho
 
-###### O que não pode faltar em um projeto de automação:
+------
+
+
 
 ###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib | VSCode</p>
 
