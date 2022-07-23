@@ -284,4 +284,6 @@ chmod + x run.sh
 
 
 
-[^Meu GoTo Automation Framework:]: Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib (Parallel Execution) | Git / GitHub | VSCode
+[^Meu GoTo Automation Framework:]: 
+
+Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib (Parallel Execution) | Git / GitHub | VSCode
