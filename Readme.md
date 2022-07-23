@@ -32,11 +32,11 @@
 
 > Formatador de código para Robot Framework!
 
-- [ ] Crypto
+- [x] Crypto
 
 > Biblioteca para utilização segura por meio de encriptação de senhas e tokens.
 
-- [ ] Faker
+- [x] Faker
 
 > Faker é um pacote Python que gera dados falsos para utilização como massa de dados. RF é feito em Python e permite total liberdade para extensão do framework usando packages Python prontos ou que você mesmo venha a desenvolver para estender as funcionalidades do framework conforme sua necessidade.
 
