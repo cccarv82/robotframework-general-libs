@@ -6,7 +6,7 @@
   <a href="https://robotframework.org/">
     <img  src="https://img.shields.io/github/languages/top/CCCARV82/robotframework-general-libs?style=for-the-badge&logo=robot framework" alt="" align="center">
   </a>
-</p>	
+</p>
 
 
 
@@ -160,11 +160,11 @@ Esse comando mostrará no terminal o seguinte menu:
    Decrypt
    Open config
    Quit
-   
+
 Devemos primeiro criar os arquivos que conterão os dados privados de criptografia, acessando o menu na seguinte ordem:
 Open config --> Configure key pair --> Generate key pair --> Yes --> Yes
 Nesse momento, será pedido uma senha, nesse exemplo, usaremos a senha 'senhasupersegura'
-Os arquivos serão gerados e o menu voltará a aparecer, vamos agora encriptar uma senha para nosso exemplo. 
+Os arquivos serão gerados e o menu voltará a aparecer, vamos agora encriptar uma senha para nosso exemplo.
 
 Back --> Back --> Encrypt
 Digite o dado que deseja encriptar, para este exemplo, vamos usar 'senha123'
@@ -178,7 +178,7 @@ Para finalizar a configuração de ambiente, devemos setar como variável de amb
 - Windows: setx private_key_password senhasupersegura
 ```
 
-- Agora que temos a criptografia configurada, vamos utilizar em nosso código. 
+- Agora que temos a criptografia configurada, vamos utilizar em nosso código.
 
   Importando a biblioteca:
 
@@ -209,7 +209,7 @@ Para finalizar a configuração de ambiente, devemos setar como variável de amb
 
   ```
   ==============================================================================
-  Conta :: Suite para testar a classe ContaLibrary.py                           
+  Conta :: Suite para testar a classe ContaLibrary.py
   ==============================================================================
   Quando solicito a impressão da minha senha bancária                   >
   .Senha Criptografada: crypt:Xw1HxJTEsPJPYrlWTGhZ6ImyKrEu+jEuOVKlKQrUrE78WCw+jlF49+f7vY7wrn5TKtf6X6jRm5g=
@@ -274,7 +274,7 @@ Quando faço um saque deve deduzir o valor do meu saldo
   def valor_saque --> Valor Saque --> ${valor_saque}
   ```
 
-  
+
 
 ## 📝 Para executar o projeto, basta executar o arquivo run.sh
 
@@ -285,9 +285,9 @@ chmod + x run.sh
 
 ------
 
-###### <p align ="center">Feito por: Carlos C. Carvalho</p> 
+###### <p align ="center">Feito por: Carlos C. Carvalho</p>
 
-###### <p align ="center"><a href="https://github.com/cccarv82/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="3%;" /></a> <a href="https://www.linkedin.com/in/cccarv/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="3%;" /></a></p>
+###### <p align ="center"><a href="https://github.com/cccarv82/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="3%;" /></a> <a href="https://www.linkedin.com/in/cccarv/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="3%;" /></a></p>
 
 ###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib | VSCode</p>
 
