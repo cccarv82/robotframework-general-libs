@@ -29,6 +29,7 @@ robocop \
 robot \
     -d ./reports \
     conta.robot
+
 # Geração do Dashboard a partir dos reports gerados
 robotmetrics  \
             -t True \

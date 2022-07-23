@@ -8,7 +8,7 @@ Library                                           CryptoLibrary                 
 
 *** Variables ***
 ${senha_protegida}
-...                 crypt:Xw1HxJTEsPJPYrlWTGhZ6ImyKrEu+jEuOVKlKQrUrE78WCw+jlF49+f7vY7wrn5TKtf6X6jRm5g=
+...    crypt:Xw1HxJTEsPJPYrlWTGhZ6ImyKrEu+jEuOVKlKQrUrE78WCw+jlF49+f7vY7wrn5TKtf6X6jRm5g=
 
 
 *** Test Cases ***
