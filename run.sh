@@ -11,16 +11,20 @@ robotidy \
         -c OrderTags:enabled=True \
         conta.robot
 
-touch reports/robocop.txt
+# Criação do arquivo txt vazio para utilização pelo Robocop.
+# Foi visto que ao implementar um pipeline, ocorria um erro no comando do robocop que não encontrava o arquivo, este comando resolve isso.
+touch reports/robocop.json
 robocop \
         --report all \
-        --output reports/robocop.txt \
+        --report json_report \
+        --report file_stats \
+        --report version \
+        --output reports/robocop.json \
         conta.robot
 
 # Execução em paralelo
 pabot \
     --processes 5 \
-    -x xunit.xml \
     -d ./reports \
     conta.robot
 

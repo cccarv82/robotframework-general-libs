@@ -26,6 +26,7 @@ Quando faço um saque deve deduzir o valor do meu saldo
     Deposita      ${valor_deposito}
     ${valor_saque}                        Convert To Number       200
     Saca          ${valor_saque}
-    ${saldo_esperado}                     Evaluate                ${valor_deposito}-${valor_saque}-2
+    ${saldo_esperado}                     Evaluate
+    ...           ${valor_deposito}-${valor_saque}-2
     ${saldo_final}                        Obter Saldo
     Should Be Equal                       ${saldo_final}          ${saldo_esperado}

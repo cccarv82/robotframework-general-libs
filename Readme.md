@@ -56,46 +56,91 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 **[Metrics](https://github.com/adiralashiva8/robotframework-metrics)**:
 
 ```
-pip install robotframework-metrics
+pip install -U robotframework-metrics
 ```
 
 **[Pabot](https://github.com/mkorpela/pabot)**:
 
 ```
-pip install robotframework-pabot
+pip install -U robotframework-pabot
 ```
 
 **[Robocop](https://github.com/MarketSquare/robotframework-robocop)**:
 
 ```
-pip install robotframework-metrics
+pip install -U robotframework-robocop
 ```
 
 **[Tidy](https://github.com/MarketSquare/robotframework-tidy)**:
 
 ```
-pip install robotframework-metrics
+pip install -U robotframework-tidy
 ```
 
 **[Crypto](https://github.com/Snooz82/robotframework-crypto)**:
 
 ```
-pip install robotframework-metrics
+pip install -U robotframework-crypto
 ```
 
 **[Faker](https://github.com/guykisel/robotframework-faker)**:
 
 ```
-pip install robotframework-metrics
+pip install -U robotframework-faker
 ```
 
 
 
-\## 🚀 Instalando <nome_do_projeto>
+## 🚀 Utilização das bibliotecas
+
+> Procuro sempre utilizar um arquivo run.sh (.bat em windows) para execução dos comandos de execução dos testes, utilização de libs/tools e outras funções necessárias como pode ser observado no arquivo deste projeto. Os exemplos abaixo são os comandos usados neste projeto, para mais detalhes e descrição detalhada das diferças formas de utilização, basta consultar a página de cada biblioteca.
+
+**Metrics**
+
+```
+robotmetrics  \
+            -t True \
+            --inputpath ./reports \
+            --output output.xml
+```
+
+- -t True: parâmetro para incluir as tags de cada caso de teste no relatório
+- --inputpath ./reports: indica o caminho onde o robotmetrics deve procurar o arquivo que será utilizado para geração do relatório, nesse caso irá buscar na pasta report a partir da raiz do projeto
+- --output output.xml: indica o nome do arquivo xml gerado pelo RF com o resultado dos testes, pode ser omitido pois por padrão o nome é output.xml, porém eu prefiro que fique explícito
+
+**Pabot**
+
+```
+pabot \
+    --processes 5 \
+    -d ./reports \
+    conta.robot
+```
+
+- --processes 5: Define a quantidade de execuções em paralelo, nesse caso, até 5 suítes serão executadas em paralelo
+
+- -d ./reports: define o diretório onde serão disponibilizados os arquivos resultantes da execução
+
+- conta.robot: define uma suíte ou um diretório contendo diversas suítes para execução. Neste exemplo, apenas a suíte conta.robot será executada, digamos que nós temos 5 suítes no diretório tests/ do nosso projeto, para rodar todas as suítes basta substituir conta.robot por tests/
+
+  > A biblioteca Pabot fornece suporte a todos os comandos que o Robot aceita, além de disponibilizar comandos próprios, como o --processes
+
+**Robocop**
+
+```
+robocop \
+        --report all \
+        --output reports/robocop.txt \
+        conta.robot
+```
+
+- --report all: O Robocop possui configuração para selecionar determinadas regras a serem reportadas pela biblioteca, utilizando o valor all a ferramenta reportará todas as inconsistências encontradas
+- --output reports/robocop.txt: indica para a biblioteca que queremos que o relatório seja salvo em arquivo e informa a localização deste arquivo. Por padrão o relatório é apresentado no console
+- conta.robot: indica a suíte que será verificada pela biblioteca. 
 
 
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+
 
 
 
