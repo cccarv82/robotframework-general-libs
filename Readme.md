@@ -1,12 +1,12 @@
 # <p align="center">Framework básico para demonstrar o uso de algumas bibliotecas para Robot Framework</p>
 <p align="center" style="margin-bottom: 0px !important;">
   <a href="https://www.python.org/">
-    <img  src="https://img.shields.io/badge/Python-grey?style=for-the-badge&logo=python&logoColor=ffe46a" alt="" align="center">
+    <img  src="https://img.shields.io/badge/3.9-blue?style=for-the-badge&logo=python&logoColor=ffe46a&message=teste&label=Python" alt="" align="center">
   </a>
   <a href="https://robotframework.org/">
-    <img  src="https://img.shields.io/badge/Robot%20Framework-grey?style=for-the-badge&logo=robot%20framework&logoColor=white" alt="" align="center">
+    <img  src="https://img.shields.io/github/languages/top/CCCARV82/robotframework-general-libs?style=for-the-badge&logo=robot framework" alt="" align="center">
   </a>
-</p>
+</p>	
 
 
 
@@ -285,11 +285,9 @@ chmod + x run.sh
 
 ------
 
-###### Feito por: Carlos C. Carvalho
-
-------
-
-
+###### <p align ="center">Feito por: Carlos C. Carvalho</p> <a href="https://www.linkedin.com/in/cccarv/">
+    <img  src="https://img.shields.io/badge/Python-grey?style=for-the-badge&logo=python&logoColor=ffe46a" alt="" align="center">
+  </a>
 
 ###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib | VSCode</p>
 
