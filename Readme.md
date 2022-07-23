@@ -3,7 +3,6 @@
 <img src="https://img.shields.io/badge/Python-00c0b5?style=for-the-badge&logo=python&logoColor=ffe46a" alt="">
 <img src="https://img.shields.io/badge/Robot%20Framework-00c0b5?style=for-the-badge&logo=robot%20framework&logoColor=grey" alt="">
 </p>
-![image](https://img.shields.io/badge/Python-00c0b5?style=for-the-badge&logo=python&logoColor=ffe46a) ![image](https://img.shields.io/badge/Robot%20Framework-00c0b5?style=for-the-badge&logo=robot%20framework&logoColor=grey)
 
 > Projeto base simples apenas para demonstrar a utilização das bibliotecas listadas abaixo. Essas bibliotecas podem ser utilizadas em qualquer tipo de projeto de automação que utilize Robot Framework, seja Web, Mobile, API e etc...
 
