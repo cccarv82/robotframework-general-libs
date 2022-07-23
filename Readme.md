@@ -287,7 +287,7 @@ chmod + x run.sh
 
 ###### <p align ="center">Feito por: Carlos C. Carvalho</p> 
 
-###### <p align ="center"><a href="GitHub.com"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="3%;" /></a>      <a href="linkedin.com"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="3%;" /></a></p>
+###### <p align ="center"><a href="https://github.com/cccarv82/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="3%;" /></a> <a href="https://www.linkedin.com/in/cccarv/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="3%;" /></a></p>
 
 ###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib | VSCode</p>
 
