@@ -286,8 +286,10 @@ chmod + x run.sh
 ------
 
 ###### <p align ="center">Feito por: Carlos C. Carvalho</p> <a href="https://www.linkedin.com/in/cccarv/">
-    <img  src="https://img.shields.io/badge/Python-grey?style=for-the-badge&logo=python&logoColor=ffe46a" alt="" align="center">
-  </a>
+    <img  src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width=3% alt="" align="center"> </a>
+
+<a href="https://www.linkedin.com/in/cccarv/">
+    <img  src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width=3% alt="" align="center"> </a>
 
 ###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib | VSCode</p>
 
