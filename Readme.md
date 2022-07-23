@@ -48,7 +48,37 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Robot Framework deve estar instalado e configurado no PATH do sistema
 
-Para instalar a biblioteca **Metrics**:
+**[Metrics](https://github.com/adiralashiva8/robotframework-metrics)**:
+
+```
+pip install robotframework-metrics
+```
+
+**[Pabot](https://github.com/mkorpela/pabot)**:
+
+```
+pip install robotframework-pabot
+```
+
+**[Robocop](https://github.com/MarketSquare/robotframework-robocop)**:
+
+```
+pip install robotframework-metrics
+```
+
+**[Tidy](https://github.com/MarketSquare/robotframework-tidy)**:
+
+```
+pip install robotframework-metrics
+```
+
+**[Crypto](https://github.com/Snooz82/robotframework-crypto)**:
+
+```
+pip install robotframework-metrics
+```
+
+**[Faker](https://github.com/guykisel/robotframework-faker)**:
 
 ```
 pip install robotframework-metrics
