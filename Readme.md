@@ -285,11 +285,11 @@ chmod + x run.sh
 
 ------
 
-###### Minha escolha para automação:
+###### Feito por: Carlos C. Carvalho
 
-###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib (Parallel Execution) | Git / GitHub | VSCode</p>
+###### O que não pode faltar em um projeto de automação:
 
-```
+###### <p align="center">Robot Framework | Browser Lib (Web) Appium Lib (Mobile) Requests Lib (API) | Pabot Lib | VSCode</p>
 
-```
+
 
